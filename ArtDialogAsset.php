@@ -17,6 +17,10 @@ class ArtDialogAsset extends AssetBundle
     public $js = [
         'artDialog.js?skin=default',
     ];
+    
+    public $css = [
+        'skins/default.css',
+    ];
 
     public $depends = [
         'yii\web\JqueryAsset',
